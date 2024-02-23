@@ -26,6 +26,7 @@ header {
   width: max(30px, 4vw);
   height: max(30px, 4vw);
  max-height:70px;
+ margin-top:20px;
 }
 
 h1 {
