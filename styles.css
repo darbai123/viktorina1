@@ -173,8 +173,7 @@ footer a {
 address {
   text-align: center;
   padding: 1rem;
-  border: 5px dotted white;
-  border-radius: 50%;
+ 
 }
 
 .sr-only {
