@@ -191,8 +191,24 @@ address {
   white-space: nowrap;
   border: 0;
 }
+@media screen and (max-width: 730px) {
+  header {
+    height: 90px; /* Sumažinkite headerio aukštį */
+  }
 
+  h1 {
+    margin: auto; /* Centruokite pavadinimą horizontaliai */
+    text-align: center; /* Centruokite pavadinimą tekstu */
+    font-size: 18px; /* Sumažinkite fonto dydį, kad tilptų į ekraną */
+  }
 
+  #logo {
+    margin: auto; /* Centruokite logotipą horizontaliai */
+    width: 70px; /* Sumažinkite logotipo dydį, jei reikia */
+    height: 70px; /* Sumažinkite logotipo dydį, jei reikia */
+  }
+}
+/* 
 @media screen and (max-width: 730px) {
   header {
  
@@ -212,4 +228,4 @@ address {
     height: max(70px, 4vw);
     margin: 10px 0 10px;
   }
-}
+} */
