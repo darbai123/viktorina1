@@ -191,6 +191,10 @@ address {
   white-space: nowrap;
   border: 0;
 }
+.btn__atgal{
+ text-decoration: none;
+}
+
 @media screen and (max-width: 730px) {
   header {
     height: 90px; /* Sumažinkite headerio aukštį */
